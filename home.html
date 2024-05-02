@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mobile Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .image-container img {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>Home</h1>
+        </div>
+        <div data-role="content">
+            <h2>Welcome to our Mobile Website!</h2>
+            <p>We are dedicated to providing cutting-edge mobile solutions tailored to your needs.</p>
+            <p>Explore our services and contact us for any inquiries or project discussions.</p>
+
+            <h3>Our Services</h3>
+            <ul>
+                <li>Mobile App Development</li>
+                <li>Responsive Web Design</li>
+                <li>User Experience (UX) Design</li>
+                <li>Quality Assurance and Testing</li>
+                <li>App Maintenance and Support</li>
+            </ul>
+
+            <h3>Our Work</h3>
+            <div class="image-container">
+                <img src="https://img.freepik.com/free-vector/various-screens-violet-public-transport-mobile-app_23-2148704862.jpg?w=996&t=st=1714497940~exp=1714498540~hmac=192287c067ab25ed7ee33e0d3f47128feee861c891f31c492d4f86ab00f4c413"
+                    alt="Image 1">
+                <img src="https://img.freepik.com/free-vector/various-screens-violet-public-transport-mobile-app_23-2148704862.jpg?w=996&t=st=1714497940~exp=1714498540~hmac=192287c067ab25ed7ee33e0d3f47128feee861c891f31c492d4f86ab00f4c413"
+                    alt="Image 2">
+                <img src="https://img.freepik.com/free-vector/various-screens-violet-public-transport-mobile-app_23-2148704862.jpg?w=996&t=st=1714497940~exp=1714498540~hmac=192287c067ab25ed7ee33e0d3f47128feee861c891f31c492d4f86ab00f4c413"
+                    alt="Image 3">
+                <img src="https://img.freepik.com/free-vector/various-screens-violet-public-transport-mobile-app_23-2148704862.jpg?w=996&t=st=1714497940~exp=1714498540~hmac=192287c067ab25ed7ee33e0d3f47128feee861c891f31c492d4f86ab00f4c413"
+                    alt="Image 4">
+                <img src="https://img.freepik.com/free-vector/various-screens-violet-public-transport-mobile-app_23-2148704862.jpg?w=996&t=st=1714497940~exp=1714498540~hmac=192287c067ab25ed7ee33e0d3f47128feee861c891f31c492d4f86ab00f4c413"
+                    alt="Image 4">
+                <img src="https://img.freepik.com/free-vector/various-screens-violet-public-transport-mobile-app_23-2148704862.jpg?w=996&t=st=1714497940~exp=1714498540~hmac=192287c067ab25ed7ee33e0d3f47128feee861c891f31c492d4f86ab00f4c413"
+                    alt="Image 4">
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <!-- Navbar with background color -->
+            <div data-role="navbar" class="navbar-custom">
+                <ul>
+                    <li><a href="about.html" data-icon="info" data-transition="slide"
+                            style="background-color: rgb(221, 220, 220);">About</a></li>
+                    <li><a href="services.html" data-icon="gear" data-transition="slide"
+                            style="background-color: rgb(221, 220, 220);">Services</a></li>
+                    <li><a href="contact.html" data-icon="phone" data-transition="slide"
+                            style="background-color: rgb(221, 220, 220);">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
